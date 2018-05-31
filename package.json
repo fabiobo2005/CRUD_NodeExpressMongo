@@ -1,0 +1,25 @@
+{
+  "name": "crud_test",
+  "version": "1.0.0",
+  "description": "CRUD_Test by Fabio",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --report spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git:https://github.com/fabiobo2005/CRUD_NodeExpressMongo.git"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.3",
+    "express": "~4.16.3",
+    "mongoose": "*",
+    "request": "~2.87.0"
+    },
+  "author": "Fabio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiobo2005/CRUD_NodeExpressMongo/issues"
+  },
+  "homepage": "https://github.com/fabiobo2005/CRUD_NodeExpressMongo#readme"
+}
